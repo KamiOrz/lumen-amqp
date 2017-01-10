@@ -1,0 +1,38 @@
+{
+  "name": "kamiorz/lumen-amqp",
+  "description": "AMQP wrapper for Lumen to publish and consume messages",
+  "keywords": [
+    "lumen",
+    "rabbitmq",
+    "amqp",
+    "queue",
+    "package",
+    "message queue",
+  ],
+  "license": "MIT",
+  "support": {
+      "issues": "https://github.com/kamiorz/lumen-amqp/issues",
+      "source": "https://github.com/kamiorz/lumen-amqp"
+  },
+  "authors": [
+    {
+      "name": "XiaoGai",
+      "email": "68152283@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "php-amqplib/php-amqplib": "2.*",
+    "illuminate/support": ">=5.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "mockery/mockery": "~0.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "KamiOrz\\Amqp\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
